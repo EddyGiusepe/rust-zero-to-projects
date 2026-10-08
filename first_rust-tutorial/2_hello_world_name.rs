@@ -13,4 +13,7 @@ rustfmt 2_hello_world_name.rs
 fn main() {
     println!("Hello, World!");
     println!("My name is Eddy Giusepe Chirinos Isidro!");
+    let name = "Rustzinho";
+    let language = "Rust";
+    println!("Hello, {}! Welcome to the world of {}", name, language);
 }
